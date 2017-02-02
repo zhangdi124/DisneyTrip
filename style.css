@@ -1,0 +1,442 @@
+body,html,div,span,a,p,h1,h2,h3,h4,h5,h6,section,article,main,figure,img{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+#header-banner{
+    position: relative;
+}
+#header-banner > img{
+    width: 100%;
+}
+#header-banner > h1{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-size: 30pt;
+    color: #FFFFFF;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+.main-banner{
+    position: relative;
+}
+.main-banner > img{
+    width:80%;
+}
+
+#main-banner-button{
+    background-color: #008CBA;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#main-banner-button:hover{
+    background-color: #e7e7e7;
+}
+
+.story-overview{
+    text-align: center;
+    font-family: "Book Antiqua";
+}
+.universal-islandOfAdventure{
+    text-align: center;
+    font-family: "Book Antiqua";
+}
+.hollywood-studio{
+    text-align: center;
+    font-family: "Book Antiqua";
+}
+
+.epcot{
+    text-align: center;
+    font-family: "Book Antiqua";
+}
+.animal-kingdom{
+    text-align: center;
+    font-family: "Book Antiqua";
+}
+.magic-kingdom{
+    text-align: center;
+    font-family: "Book Antiqua";
+}
+
+.links{
+    text-align: center;
+    font-family: "Book Antiqua";
+}
+
+.button1{
+    background-color: #008CBA;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width:110px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+.button1:hover{
+    background-color: #e7e7e7;
+}
+
+.button2{
+    background-color: #ce42f4;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width:110px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+.button2:hover{
+    background-color: #e7e7e7;
+}
+
+.button3{
+    background-color: #f44295;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width:110px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+.button3:hover{
+    background-color: #e7e7e7;
+}
+
+.button4{
+    background-color: #42f477;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width:110px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+.button4:hover{
+    background-color: #e7e7e7;
+}
+
+.button5{
+    background-color: #f4e542;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width:110px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+.button5:hover{
+    background-color: #e7e7e7;
+}
+
+.button6{
+    background-color: #f48642;
+    font-size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width:110px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+.button6:hover{
+    background-color: #e7e7e7;
+}
+.contact-info{
+    text-align: center;
+    font-family: "Book Antiqua";
+    font-size: x-small;
+}
+
+.email-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.ball1{
+    background: mediumpurple;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    position: relative;
+
+    top: 0;
+    box-shadow: none;
+    transition: all 2s;
+
+    float: left;
+}
+
+.ball1:hover{
+    background:blue;
+    top: -15px;
+    box-shadow: 0 15px 5px #000;
+}
+
+.ball2{
+    background: pink;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+    top:0;
+    box-shadow: snow;
+    transition: all 1s;
+
+    float: left;
+
+}
+
+.ball2:hover{
+    background:hotpink;
+    top: -15px;
+    box-shadow: 0 15px 5px #000;
+}
+
+.ball3{
+    background: #008CBA;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    top:0;
+    box-shadow: snow;
+    transition: all 1s;
+
+    float:right;
+}
+
+.ball3:hover{
+    background:blue;
+    top: -15px;
+    box-shadow: 0 15px 5px #000;
+}
+
+.ball4{
+    background: chartreuse;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+    top:0;
+    box-shadow: snow;
+    transition: all 1s;
+
+    float:right;
+}
+.ball4:hover{
+    background:green;
+    top: -15px;
+    box-shadow: 0 15px 5px #000;
+}
+.row:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.col{
+    float: left;
+    padding: 5px;
+}
+.col-third{
+    width: 33.33%
+}
+
+.col > figure{
+    max-width: calc(100% - 5px);
+}
+
+figure > img{
+    width: 100%;
+}
+
+.harry-potter{
+    -webkit-animation-name: flying-harrypotter;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: flying-harrypotter infinite 5s;
+    -o-animation: flying-harrypotter infinite 5s;
+    animation: flying-harrypotter infinite 5s;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+
+@-webkit-keyframes flying-harrypotter {
+    0% {
+        transform: translate(0, 0)
+    }
+    5% {
+             transform: translate(30px, 0px)
+    }
+    10% {
+        transform: translate(60px, 0px)
+    }
+    20%{
+        transform: translate(70px, 0px);
+    }
+    30%{
+        transform: translate(50px, 0px);
+    }
+    40%{
+        transform: translate(90px, 0px);
+    }
+    50% {
+        transform: translate(50px, 0px)
+    }
+    60%{
+        transform: translate(20px, 10px);
+    }
+    70%{
+        transform: translate(10px, 0px);
+    }
+    80%{
+        transform: translate(30px, 0px);
+    }
+    90%{
+        transform: translate(80px, 100px);
+    }
+    100% {
+        transform: translate(100px, 500px)
+    }
+
+}
+
+@-moz-keyframes flying-harrypotter {
+    0% {
+        transform: translate(0, 0)
+    }
+    5% {
+        transform: translate(30px, 0px)
+    }
+    10% {
+        transform: translate(60px, 0px)
+    }
+    20%{
+        transform: translate(70px, 0px);
+    }
+    30%{
+        transform: translate(50px, 0px);
+    }
+    40%{
+        transform: translate(90px, 0px);
+    }
+    50% {
+        transform: translate(50px, 0px)
+    }
+    60%{
+        transform: translate(20px, 10px);
+    }
+    70%{
+        transform: translate(10px, 0px);
+    }
+    80%{
+        transform: translate(30px, 0px);
+    }
+    90%{
+        transform: translate(80px, 100px);
+    }
+    100% {
+        transform: translate(100px, 500px)
+    }
+
+}
+
+@-o-keyframes flying-harrypotter {
+    0% {
+        transform: translate(0, 0)
+    }
+    5% {
+        transform: translate(30px, 0px)
+    }
+    10% {
+        transform: translate(60px, 0px)
+    }
+    20%{
+        transform: translate(70px, 0px);
+    }
+    30%{
+        transform: translate(50px, 0px);
+    }
+    40%{
+        transform: translate(90px, 0px);
+    }
+    50% {
+        transform: translate(50px, 0px)
+    }
+    60%{
+        transform: translate(20px, 10px);
+    }
+    70%{
+        transform: translate(10px, 0px);
+    }
+    80%{
+        transform: translate(30px, 0px);
+    }
+    90%{
+        transform: translate(80px, 100px);
+    }
+    100% {
+        transform: translate(100px, 500px)
+    }
+
+}
+
+@keyframes flying-harrypotter {
+    0% {
+        transform: translate(0, 0)
+    }
+    5% {
+        transform: translate(30px, 0px)
+    }
+    10% {
+        transform: translate(60px, 0px)
+    }
+    20%{
+        transform: translate(70px, 0px);
+    }
+    30%{
+        transform: translate(50px, 0px);
+    }
+    40%{
+        transform: translate(90px, 0px);
+    }
+    50% {
+        transform: translate(50px, 0px)
+    }
+    60%{
+        transform: translate(20px, 10px);
+    }
+    70%{
+        transform: translate(10px, 0px);
+    }
+    80%{
+        transform: translate(30px, 0px);
+    }
+    90%{
+        transform: translate(80px, 100px);
+    }
+    100% {
+        transform: translate(100px, 500px)
+    }
+
+}
